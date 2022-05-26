@@ -6,10 +6,69 @@
 <p align="center">
   <a href="project/Priya_Srivastava_GSoCproposal_CHAOSS.pdf"> Proposal </a>|
   <a href="meetings/"> Meeting Notes </a>| 
-  <a href="#project-abstract"> Abstract</a> |
+  <a href="description"> Abstract</a> |
   <a href="blogs/">Blogs</a> |
   <a href="#additional-info"> Links</a>
 </p>
+
+## CONTENTS
+* [Student Developer Info](#student-developer-info-)
+* [Description](#description-)
+* [Terminology](#terminology-)
+* [Work](#work-)
+<!--* [Activity Reports](#activity-reports-)
+* [Case study with CHAOSS](#case-study-with-chaoss-)
+* [Implementation Steps](#implementation-steps-)
+* [Future Scope](#future-scope-)
+* [Learnings](#learnings-)-->
+
+## Student Developer Info: [&uarr;](#contents)
+  * Linkedin: [Priya Srivastava](https://www.linkedin.com/in/priyasrivastava730/)
+  * Github: [@Priya730](https://github.com/Priya730)
+  * Twitter: [@shivikapriya](https://twitter.com/shivikapriya)
+  * Blog: [@shivikapriya](https://medium.com/shivikapriya)
+  * Mail: [shivikapriya730@gmail.com](mailto://shivikapriya730@gmail.com)
+
+##  DESCRIPTION [&uarr;](#student-developer-info-)
+<div align="center"><b></div></b>
+  
+## TERMINOLOGY [&uarr;](#description-)
+## WORK [&uarr;](#terminology-)
+
+## ACTIVITY REPORTS [&uarr;](#work-)
+
+### Community Bonding - May 20th to June 12th, 2022 [&uarr;](#activity-reports-)
+ |Week Number | Blog| Weekly Summary|
+| ---   | --- | ---| 
+**WEEK 0**|[Accepted for GSoC'22](*)| |
+**WEEK 1**|[Community Bonding week 1]() | [Weekly report]()|
+**WEEK 2** | [Community Bonding week 2]()|  [Weekly report]()|
+**WEEK 3** | [Community Bonding week 3]() |[Weekly report]()|
+
+### Coding Period 1 - June 13th to July , 2022 [&uarr;](#activity-reports-)
+|Week Number | Blog| Weekly Summary|
+| ---   | --- | ---|
+**WEEK 1** |[Coding Period 1 week 1]() |[Weekly report]()
+**WEEK 2** |[Coding Period 1 week 2]() | [Weekly report]()
+**WEEK 3** |[Coding Period 1 week 3]() | [Weekly report]()
+**WEEK 4** | [Coding Period 1 week 4]() |[Weekly report]()
+
+### Coding Period 2 - July  to July th, 2022 [&uarr;](#activity-reports-)
+ |Week Number | Blog| Weekly Summary|
+| ---   | --- | ---|
+**WEEK 5** |[Coding Period 2 week 5]() |[Weekly report]()
+**WEEK 6** |[Coding Period 2 week 6]() | [Weekly report]()
+**WEEK 7** |[Coding Period 2 week 7]() | [Weekly report]()
+**WEEK 8** | [Coding Period 2 week 8]() |[Weekly report]()
+
+### Coding Period 3 - July  to Aug , 2022 [&uarr;](#activity-reports-)
+|Week Number | Blog| Weekly Summary|
+| ---   | --- | ---|
+**WEEK 9** |[Coding Period 3 week 9]() |[Weekly report]()
+**WEEK 10** |[Coding Period 3 week 10]() | [Weekly report]()
+**WEEK 11**|[Coding Period 3 week 11]() | [Weekly report]()
+
+<!--
 
 ## Project Abstract
 
@@ -17,9 +76,9 @@
 
 ## Project Updates
 
+  -->
 ## Additional Info
-
-This repository will be regularly updated with blogs and meetings summaries during the project.
+<b>This repository will be regularly updated with blogs and meetings summaries during the project.</b>
     
 - [GSoC'22 Project Proposal](project/Priya_Srivastava_GSoCproposal_CHAOSS.pdf)
 - [Microtasks](https://github.com/Priya730/chaoss-micro-task)
