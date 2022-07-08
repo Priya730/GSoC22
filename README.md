@@ -41,16 +41,16 @@
  |Week Number | Blog| Weekly Summary|
 | ---   | --- | ---| 
 **WEEK 0**|[Accepted for GSoC'22](*)| |
-**WEEK 1**|[Community Bonding week 1]() | [Weekly report]()|
+**WEEK 1**|[Community Bonding week 1](https://medium.com/@shivikapriya730/google-summer-of-code-community-bonding-week-1-e2f07644dc98) | [Weekly report](weeklyReport/communityBonding/Week1.md)|
 **WEEK 2** | [Community Bonding week 2]()|  [Weekly report]()|
 **WEEK 3** | [Community Bonding week 3]() |[Weekly report]()|
 
-### Coding Period 1 - June 13th to July , 2022 [&uarr;](#activity-reports-)
+### Coding Period 1 - June 13th to July 11, 2022 [&uarr;](#activity-reports-)
 |Week Number | Blog| Weekly Summary|
 | ---   | --- | ---|
 **WEEK 1** |[Coding Period 1 week 1]() |[Weekly report]()
 **WEEK 2** |[Coding Period 1 week 2]() | [Weekly report]()
-**WEEK 3** |[Coding Period 1 week 3]() | [Weekly report]()
+**WEEK 3** |[Coding Period 1 week 3]() | [Weekly report](weeklyReport/codingPeriod/week3.md)
 **WEEK 4** | [Coding Period 1 week 4]() |[Weekly report]()
 
 ### Coding Period 2 - July  to July th, 2022 [&uarr;](#activity-reports-)
