@@ -1,6 +1,6 @@
 # Week: 27 June to 3 July
 # Coding Period Week 3 Report
-[![Generic badge](https://img.shields.io/badge/Status-In_Progress-<>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Status-Done-<>.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/Last_Updated_(IST)-July_3,_2022-e10b95.svg)](https://shields.io/)
 
 ## TL;DR
