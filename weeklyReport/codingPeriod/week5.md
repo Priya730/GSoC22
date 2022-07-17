@@ -1,13 +1,17 @@
 # Week: 11 July to 17 July
 # Coding Period Week 5 Report
-[![Generic badge](https://img.shields.io/badge/Status-In_Progress-<>.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/Last_Updated_(IST)-July_13,_2022-e10b95.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Status-Done-<>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Last_Updated_(IST)-July_17,_2022-e10b95.svg)](https://shields.io/)
 
 ## TL;DR
 adduser(username) methods works for given argument username and email.
 # TODO:
 - [x] avoid duplicates (Each user should have a unique username and email)
-- fix password hashing
+- [x] fix password hashing
+- [x] Added generate password hash
+- [x] changed bold output
+# Possibilities:
+- email argument option update
 - validate email address
 - use a different model for admin, will be easy to differentiate between user and admin
 # Important: 
@@ -48,5 +52,11 @@ username = field.data
 
 # Questions:
 - UserMixin benefits? will it help me in authorisation?
+- Flask-Login instead of Flask-User grrr. What's the difference between the two. They seem almost identical. 
+
+- Not able to find out the difference and decide which one to use.
+
+- Plus, usermanager (flask-user) is giving me errors (a lot of them!)
+
 # Random:
 - Learnt more about good commit messages. ;)
