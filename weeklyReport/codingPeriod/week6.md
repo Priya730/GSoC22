@@ -4,6 +4,8 @@
 [![Generic badge](https://img.shields.io/badge/Last_Updated_(IST)-July_17,_2022-e10b95.svg)](https://shields.io/)
 
 ## TL;DR
+PR ready to merge, sent for review.
+University begins on 25 July, this week was not very productive due to travel and reallocation.
 
 ## ToDo:
 - Do i need role based authorisation?
