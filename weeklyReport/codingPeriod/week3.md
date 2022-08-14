@@ -23,5 +23,5 @@ Mentoring session notes: (1 July 2022)
 - Access to augur databse (Soln: will be solved by the API endpoints, check branch [andrew_dev](https://github.com/chaoss/augur/tree/andrew-dev)
 - [ ] Understand the api endpoints part
 - [x] add admin flag
-- [ ] add the user subcommand from the multicommand.py 
+- [x] add the user subcommand from the multicommand.py 
 - [ ] next steps will be admin and user permissions
