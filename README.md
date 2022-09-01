@@ -1,7 +1,16 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Linkedin: Priya](https://img.shields.io/badge/-PriyaSrivastava-blue?style=flat-square&logo=Linkedin&logoColor=white&)](https://www.linkedin.com/in/priyasrivastava730/)
+[![Twitter: shivikapriya](https://img.shields.io/twitter/follow/shivikapriya?style=social)](https://twitter.com/shivikapriya)
+[![GitHub: Priya730](https://img.shields.io/github/followers/Priya730?label=Follow%20%40Priya730&style=social)](https://github.com/Priya730)
+<br>
+
 <h1 align="center"><a href="https://summerofcode.withgoogle.com/programs/2022/projects/YNXT2TFX">Build Access and Entitlements for Hosted version of Augur</a></h1>
 <figure>
   <img src="project/chaoss-gsoc.png" align="center">
 </figure>
+<br>
+<p align="center">Check out my <a href="">blog</a> or follow me on <a href="https://twitter.com/shivikapriya">Twitter</a> for more updates.</p>
+
 
 <p align="center">
   <a href="project/Priya_Srivastava_GSoCproposal_CHAOSS.pdf"> Proposal </a>|
