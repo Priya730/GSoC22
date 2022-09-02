@@ -60,6 +60,32 @@ Augur is a software suite for collecting and measuring structured data about fre
 #### Secondary
 - Augur enpoints to be deployed from augur-new. Install augur-new and test the schema creation with SQLAlchemy, and see if it at least creates a schema with all the data integrity protections we engineered into it.
 
+### Objectives Accomplished:
+1. #### Installation of augur_view:
+
+2. #### 
+
+## Deliverables
+### What Was Done
+During these three months I have completed all the essential objectives which includes
+
+| \# | Objectives | PR/Commit/Link | Associated Deliverables | Status |
+|----|-------------|----------------|---------|--------|
+| 1 | Installation of augur_view | [Link](https://github.com/augurlabs/augur_view/pull/22) |  | Completed |
+| 2 | Add user subcommand with username functionality | [Link](https://github.com/chaoss/augur/pull/1912/commits/8ad805770a2a87790b2aab7340021df2b4a71bff) |  | Completed |
+| 3 | Add user with email | [Link](https://github.com/chaoss/augur/pull/1912/commits/2f21f567305bdf56dd6f8524ab587114139a5756) | Add user with unique email and username command | Completed |
+| 4 | Add Password hashing for the user| [Link](https://github.com/chaoss/augur/pull/1912/commits/1e57f9a073ebcf651eb6b92fe0353d6053bf185f) | Password hashing added | Completed |
+| 5 | augur user add <username> <email> subcommand | [PR Link](https://github.com/chaoss/augur/pull/1912) | CLI components for creating admin and user accounts. add_user method takes username as argument as adds it to the table user. | Completed |
+| 6 | Added Create user endpoint | [Link](https://github.com/chaoss/augur/pull/1953/commits/c5a7d1d74a5a2e1c4ac52bd27de9d401f98eead5) | API endpoint for creating user as per user schema (does not use ORM) | Completed |
+| 7 | Added Validate user endpoint  | [Link](https://github.com/chaoss/augur/pull/1953/commits/64741898326de4ce215fb18f4f5652a9e149d7a8) | API endpoint for validating user email, username and password(does not use ORM) | Completed |
+| 8 | Added remove user endpoint  | [Link](https://github.com/chaoss/augur/pull/1953/commits/23a0cf3540fc93c1105956b4b00839b886e1aa48) | API endpoint for deleting user from database(does not use ORM) | Completed |
+| 9 | Added update user endpoint  | [Link](https://github.com/chaoss/augur/pull/1953/commits/a9634068e5e2b0f9d62a15ebc68c699474050f3f) | API endpoint for updating user details like email, username and password.(does not use ORM) | Completed |
+| 10 | User create endpoint ORM | [Link](https://github.com/chaoss/augur/pull/1953/commits/a4c049334efe86d678e99ffe09b947e43b9e07bb) | API endpoint for creating user using ORM | Completed |
+| 11 | User validate endpoint ORM  | [Link](https://github.com/chaoss/augur/pull/1953/commits/ea5e72ff52b757ca836aa4a1a0b80b2c5d110252) | API endpoint for validating user using ORM | Completed |
+| 12 | User remove endpoint ORM   | [Link](https://github.com/chaoss/augur/pull/1953/commits/557d966510924215ca43ff3d03873b580bcc3cc5) | API endpoint for remove user using ORM | Completed |
+| 13 | User update endpoint ORM   | [Link](https://github.com/chaoss/augur/pull/1953/commits/2cf9afe432cc853e79f1ca68c9ba69e7d48ebbae) | API endpoint for updating user using ORM | Completed |
+| 14 | --  | [Link]() |  | Completed |
+
 
 ## ACTIVITY REPORTS [&uarr;](#work-)
 
