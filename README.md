@@ -41,8 +41,29 @@
 ##  DESCRIPTION [&uarr;](#student-developer-info-)
 <div align="center"><b></div></b>
   
-## TERMINOLOGY [&uarr;](#description-)
-## WORK [&uarr;](#terminology-)
+## PROJECT DETAILS[&uarr;](#description-)
+### [AUGUR](https://github.com/chaoss/augur):
+Augur is a software suite for collecting and measuring structured data about free and open-source software (FOSS) communities. We do this by gathering data about project repositories and normalizing that into our data model to provide useful metrics about your project’s health. 
+
+### AUGUR_VIEW:
+
+### AUGUR-NEW:
+
+
+## WORK [&uarr;](#project-details-)
+### OBJECTIVES:
+
+#### Primary
+- Develop login functionalities so that admins and users can access augur. Populate the tables with information from the user.
+
+- Connect the login to the augur_data.chaoss_user table instead of the sqllite3 database.
+
+- Implement the endpoints necessary for account creation and authentication on the backend.
+
+- Work on the CLI components for creating admin and user accounts.
+#### Secondary
+- Augur enpoints to be deployed from augur-new. Install augur-new and test the schema creation with SQLAlchemy, and see if it at least creates a schema with all the data integrity protections we engineered into it.
+
 
 ## ACTIVITY REPORTS [&uarr;](#work-)
 
