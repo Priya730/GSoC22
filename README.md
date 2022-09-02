@@ -22,8 +22,7 @@
 
 ## CONTENTS
 * [Student Developer Info](#student-developer-info-)
-* [Description](#description-)
-* [Terminology](#terminology-)
+* [Project Details](#project-details-)
 * [Work](#work-)
 <!--* [Activity Reports](#activity-reports-)
 * [Case study with CHAOSS](#case-study-with-chaoss-)
@@ -37,17 +36,14 @@
   * Twitter: [@shivikapriya](https://twitter.com/shivikapriya)
   * Blog: [@shivikapriya](https://medium.com/shivikapriya)
   * Mail: [shivikapriya730@gmail.com](mailto://shivikapriya730@gmail.com)
-
-##  DESCRIPTION [&uarr;](#student-developer-info-)
-<div align="center"><b></div></b>
   
-## PROJECT DETAILS[&uarr;](#description-)
-### [AUGUR](https://github.com/chaoss/augur):
+## PROJECT DETAILS[&uarr;](#student-developer-info-)
+### [Augur](https://github.com/chaoss/augur):
 Augur is a software suite for collecting and measuring structured data about free and open-source software (FOSS) communities. We do this by gathering data about project repositories and normalizing that into our data model to provide useful metrics about your project’s health. 
 
-### AUGUR_VIEW:
+### [augur_view]():
 
-### AUGUR-NEW:
+### [augur-new](https://github.com/chaoss/augur/tree/augur-new):
 
 
 ## WORK [&uarr;](#project-details-)
