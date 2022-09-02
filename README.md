@@ -50,15 +50,15 @@ Augur is a software suite for collecting and measuring structured data about fre
 ### OBJECTIVES:
 
 #### Primary
-- Develop login functionalities so that admins and users can access augur. Populate the tables with information from the user.
+| \# | Status  | Objectives                    
+| --- | --- | ----------------------------- | 
+| 1 | :heavy_check_mark: | Develop login functionalities so that admins and users can access augur. Populate the tables with information from the user. |
+| 2 | :heavy_check_mark: | Connect the login to the augur_data.chaoss_user table instead of the sqllite3 database. |
+| 3 | :heavy_check_mark: | Implement the endpoints necessary for account creation and authentication on the backend. |
+| 4 | :heavy_check_mark: | Work on the CLI components for creating admin and user accounts. |
 
-- Connect the login to the augur_data.chaoss_user table instead of the sqllite3 database.
-
-- Implement the endpoints necessary for account creation and authentication on the backend.
-
-- Work on the CLI components for creating admin and user accounts.
 #### Secondary
-- Augur enpoints to be deployed from augur-new. Install augur-new and test the schema creation with SQLAlchemy, and see if it at least creates a schema with all the data integrity protections we engineered into it.
+- :heavy_check_mark: Augur enpoints to be deployed from augur-new. Install augur-new and test the schema creation with SQLAlchemy, and see if it at least creates a schema with all the data integrity protections we engineered into it.
 
 ### Objectives Accomplished:
 1. #### Installation of augur_view:
