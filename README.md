@@ -46,46 +46,68 @@ Augur is a software suite for collecting and measuring structured data about fre
 
 ## OBJECTIVES ACCOMPLISHED [&uarr;](#objectives-)
 
-### `augur user add` subcommand to add users:
+### 1. Subcommand to add users:
 <hr>
+<p align="center" style="font-size:15px"> <b> augur user add </b></p>
+
+<p align="center">  The augur user add CLI group is for adding user to Augur's database.</p>
+
+<hr>
+<p align="center"> 
+  <img src="project/assets/usercli.gif" width="800" height="450">
+</p>
+* All commands are invoked like:
 
 ``augur user add <username> <email> <firstname> <lastname>`` <br>
 ``augur user add <username> <email> <firstname> <lastname>  --admin ``
+<br>
+<hr>
+<h3 align="center"> Resulting Database: <h3> <hr> <br>
+<p align="center"> 
+  <img src="project/assets/dbresults.jpeg" width="800" height="450">
+</p>
 <hr>
 
-The `augur user add` CLI group is for adding user to Augur's database. All commands are invoked like:
-  $ augur user add <command attributes>
+### 2. Installing augur-new:
+<br>
+<p align="center">
+  <img src="project/assets/installingAugur-new.gif" width="800" height="450">
+</p>
 <hr>
-<img src="project/assets/usercli.gif" width="800" height="450">
-<hr>
-<h3>Resulting Database:<h3>
-<img src="project/assets/dbresults.jpeg" width="800" height="450">
 
-### Installing augur-new:
-<img src="project/assets/installingAugur-new.gif" width="800" height="450">
-
-### API Endpoints:
+### 3. API Endpoints:
 <p align="center" style="font-size:25px"> <b> Create User </b> <p>
-Command invoked like:<br>
-``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&email=<email>&first_name=<first_name>&last_name=<last_name>``<br><hr>
-<img src="project/assets/createuser.gif" width="800" height="450"><hr>
+<p align="center">  Allows to create user with unique username and email, password, firstname, lastname</p>
+<p align="center">
+    |<img src="project/assets/createuser.gif" width="800" height="450"> |
+</p>
+<hr>
 
 <p align="center" style="font-size:25px"> <b> Validate User </b> <p>
-Command invoked like:<br>
+<p align="center">  Allows to validate user with given username and password</p>
+<p align="center">
+    |<img src="project/assets/validateuser.gif" width="800" height="450"> |
+</p>
+<hr>
 
-``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>``<hr>
-<img src="project/assets/validateuser.gif" width="800" height="450"><hr>
+<p align="center" style="font-size:25px"> <b> Remove User </b></p>
 
+<p align="center">  Allows to remove user with given username </p>
+<p align="center">
+    |<img src="project/assets/userremove.gif" width="800" height="450"> |
+</p>
+
+<hr>
 <p align="center" style="font-size:25px"> <b> Update User </b> <p>
-For example to update username command invoked like:<br>
 
-``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&new_username=<new_username>``<hr>
+* Allows to update username, password, email as arguments: new_username, new_password, new_email 
+* Either one or all of the above attributes can be provided as arguments to the API.
+* NOTE: Only valid username and password will allow updation of new values.
+* For example to update username command invoked like:
 
-<p align="center" style="font-size:25px"><b> Remove User</b> <p>
-Command invoked like:
+``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&new_username=<new_username>``
 
-``http://127.0.0.1:5000/api/unstable/user/remove?username=<username>``<hr>
-<img src="project/assets/userremove.gif" width="800" height="450"><hr>
+<hr>
 
 ## WORK [&uarr;](#objectives-accomplished-)
 ### What Was Done
@@ -123,7 +145,7 @@ During these three months I have completed all the essential objectives which in
   - Week 8 (July 26, 2021 - August 1, 2021) - [Blog](blogs/week-08-coding-period.md)    
   - Week 9 (August 2, 2021 - August 8, 2021) - [Blog](blogs/week-09-coding-period.md)    
   - Week 10 (August 9, 2021 - August 15, 2021) - [Blog](blogs/week-10-coding-period.md)    
-- [Final Report](https://gist.github.com/yash2002109/887c3e68ff3ff222f941402ceb7bf0dc)
+- [Final Report]()
  
 ## Mentors [&uarr;](#activity-reports-)
 - [Sean Goggins]()
