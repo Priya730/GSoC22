@@ -60,13 +60,10 @@ Augur is a software suite for collecting and measuring structured data about fre
 #### Secondary
 - :heavy_check_mark: Augur enpoints to be deployed from augur-new. Install augur-new and test the schema creation with SQLAlchemy, and see if it at least creates a schema with all the data integrity protections we engineered into it.
 
-### Objectives Accomplished: (Img+GIF of work product)
+### OBJECTIVES ACCOMPLISHED:
 1. #### Installation of augur_view:
 
 2. #### `augur user add` subcommand to add users:
-
-
-User add Commands
 
 ``augur user add <username> <email> <firstname> <lastname>`` <br>
 ``augur user add <username> <email> <firstname> <lastname>  --admin ``
@@ -74,12 +71,21 @@ User add Commands
 The ``augur user add`` CLI group is for adding user to Augur's database. All commands are invoked like:
 
   $ augur user add <command attributes>
-
 <br>
 <img src="project/assets/usercli.gif" width="800" height="450">
 <br>
 Resulting Database:
 <img src="project/assets/dbresults.jpeg" width="800" height="450">
+
+3. #### Installing augur-new:
+<img src="project/assets/installingAugur-new.gif" width="800" height="450">
+
+4. #### API Endpoints:
+### Create User
+### Validate User
+### Update User
+### Remove User
+
 
 ## Deliverables
 ### What Was Done
