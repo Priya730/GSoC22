@@ -77,27 +77,27 @@ The ``augur user add`` CLI group is for adding user to Augur's database. All com
 <h3>Resulting Database:<h3>
 <img src="project/assets/dbresults.jpeg" width="800" height="450">
 
-3. #### Installing augur-new:
+3. ### Installing augur-new:
 <img src="project/assets/installingAugur-new.gif" width="800" height="450">
 
-4. #### API Endpoints:
+4. ## API Endpoints:
 ### Create User
-Command invoked like:
-``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&email=<email>&first_name=<first_name>&last_name=<last_name>``
-<img src="project/assets/usercreate.gif" width="800" height="450">
+Command invoked like:<br>
+``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&email=<email>&first_name=<first_name>&last_name=<last_name>``<br><hr>
+<img src="project/assets/createuser.gif" width="800" height="450"><hr>
 
 ### Validate User
 Command invoked like:
-``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>``
-<img src="project/assets/validate.gif" width="800" height="450">
+``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>``<hr>
+<img src="project/assets/validateuser.gif" width="800" height="450">
 
 ### Update User
 For example to update username command invoked like::
-``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&new_username=<new_username>``
+``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&new_username=<new_username>``<hr>
 ### Remove User
 Command invoked like:
-``http://127.0.0.1:5000/api/unstable/user/remove?username=<username>`
-
+``http://127.0.0.1:5000/api/unstable/user/remove?username=<username>``
+<img src="project/assets/userremove.gif" width="800" height="450"><hr>
 
 ## Deliverables
 ### What Was Done
