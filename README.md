@@ -74,7 +74,7 @@ The ``augur user add`` CLI group is for adding user to Augur's database. All com
 <br>
 <img src="project/assets/usercli.gif" width="800" height="450">
 <br>
-Resulting Database:
+<h3>Resulting Database:<h3>
 <img src="project/assets/dbresults.jpeg" width="800" height="450">
 
 3. #### Installing augur-new:
@@ -82,9 +82,21 @@ Resulting Database:
 
 4. #### API Endpoints:
 ### Create User
+Command invoked like:
+``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&email=<email>&first_name=<first_name>&last_name=<last_name>``
+<img src="project/assets/usercreate.gif" width="800" height="450">
+
 ### Validate User
+Command invoked like:
+``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>``
+<img src="project/assets/validate.gif" width="800" height="450">
+
 ### Update User
+For example to update username command invoked like::
+``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&new_username=<new_username>``
 ### Remove User
+Command invoked like:
+``http://127.0.0.1:5000/api/unstable/user/remove?username=<username>`
 
 
 ## Deliverables
