@@ -61,14 +61,15 @@ Augur is a software suite for collecting and measuring structured data about fre
 - :heavy_check_mark: Augur enpoints to be deployed from augur-new. Install augur-new and test the schema creation with SQLAlchemy, and see if it at least creates a schema with all the data integrity protections we engineered into it.
 
 ### OBJECTIVES ACCOMPLISHED:
-1. #### Installation of augur_view:
 
-2. #### `augur user add` subcommand to add users:
+1. ## `augur user add` subcommand to add users:
+<hr>
 
 ``augur user add <username> <email> <firstname> <lastname>`` <br>
 ``augur user add <username> <email> <firstname> <lastname>  --admin ``
+<hr>
 
-The ``augur user add`` CLI group is for adding user to Augur's database. All commands are invoked like:
+The `augur user add` CLI group is for adding user to Augur's database. All commands are invoked like:
 
   $ augur user add <command attributes>
 <br>
@@ -89,14 +90,14 @@ Command invoked like:<br>
 ### Validate User
 Command invoked like:
 ``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>``<hr>
-<img src="project/assets/validateuser.gif" width="800" height="450">
+<img src="project/assets/validateuser.gif" width="800" height="450"><hr>
 
 ### Update User
 For example to update username command invoked like::
 ``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&new_username=<new_username>``<hr>
 ### Remove User
 Command invoked like:
-``http://127.0.0.1:5000/api/unstable/user/remove?username=<username>``
+``http://127.0.0.1:5000/api/unstable/user/remove?username=<username>``<hr>
 <img src="project/assets/userremove.gif" width="800" height="450"><hr>
 
 ## Deliverables
