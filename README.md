@@ -88,15 +88,15 @@ Command invoked like:<br>
 <img src="project/assets/createuser.gif" width="800" height="450"><hr>
 
 ### Validate User
-Command invoked like:
+Command invoked like:<br>
 ``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>``<hr>
 <img src="project/assets/validateuser.gif" width="800" height="450"><hr>
 
 ### Update User
-For example to update username command invoked like::
+For example to update username command invoked like:<br>
 ``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&new_username=<new_username>``<hr>
 ### Remove User
-Command invoked like:
+Command invoked like:<br>
 ``http://127.0.0.1:5000/api/unstable/user/remove?username=<username>``<hr>
 <img src="project/assets/userremove.gif" width="800" height="450"><hr>
 
