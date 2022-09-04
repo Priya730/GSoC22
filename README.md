@@ -79,14 +79,14 @@ Augur is a software suite for collecting and measuring structured data about fre
 <p align="center" style="font-size:25px"> <b> Create User </b> <p>
 <p align="center">  Allows to create user with unique username and email, password, firstname, lastname</p>
 <p align="center">
-    |<img src="project/assets/createuser.gif" width="800" height="450"> |
+    <img src="project/assets/createuser.gif" width="800" height="450"> 
 </p>
 <hr>
 
 <p align="center" style="font-size:25px"> <b> Validate User </b> <p>
 <p align="center">  Allows to validate user with given username and password</p>
 <p align="center">
-    |<img src="project/assets/validateuser.gif" width="800" height="450"> |
+    <img src="project/assets/validateuser.gif" width="800" height="450"> 
 </p>
 <hr>
 
@@ -94,7 +94,7 @@ Augur is a software suite for collecting and measuring structured data about fre
 
 <p align="center">  Allows to remove user with given username </p>
 <p align="center">
-    |<img src="project/assets/userremove.gif" width="800" height="450"> |
+    <img src="project/assets/userremove.gif" width="800" height="450"> 
 </p>
 
 <hr>
