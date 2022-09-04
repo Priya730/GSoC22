@@ -1,17 +1,16 @@
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Linkedin: Priya](https://img.shields.io/badge/-PriyaSrivastava-blue?style=flat-square&logo=Linkedin&logoColor=white&)](https://www.linkedin.com/in/priyasrivastava730/)
+[![Linkedin: Priya](https://img.shields.io/badge/-Priya-blue?style=flat-square&logo=Linkedin&logoColor=white&)](https://www.linkedin.com/in/priyasrivastava730/)
 [![Twitter: shivikapriya](https://img.shields.io/twitter/follow/shivikapriya?style=social)](https://twitter.com/shivikapriya)
 [![GitHub: Priya730](https://img.shields.io/github/followers/Priya730?label=Follow%20%40Priya730&style=social)](https://github.com/Priya730)
-<br>
-
+<hr>
 <h1 align="center"><a href="https://summerofcode.withgoogle.com/programs/2022/projects/YNXT2TFX">Build Access and Entitlements for Hosted version of Augur</a></h1>
 <figure>
   <img src="project/chaoss-gsoc.png" align="center">
 </figure>
 <br>
+
 <p align="center">Check out my <a href="">blog</a> or follow me on <a href="https://twitter.com/shivikapriya">Twitter</a> for more updates.</p>
-
-
 <p align="center">
   <a href="project/Priya_Srivastava_GSoCproposal_CHAOSS.pdf"> Proposal </a>|
   <a href="meetings/"> Meeting Notes </a>| 
@@ -20,36 +19,28 @@
   <a href="#additional-info"> Links</a>
 </p>
 
+
+
 ## CONTENTS
-* [Student Developer Info](#student-developer-info-)
 * [Project Details](#project-details-)
+* [Objectives](#objectives-)
+* [Objectives Accomplished](#objectives-accomplished-)
 * [Work](#work-)
-<!--* [Activity Reports](#activity-reports-)
+* [Activity Reports](#activity-reports-)
+<!--
 * [Case study with CHAOSS](#case-study-with-chaoss-)
 * [Implementation Steps](#implementation-steps-)
 * [Future Scope](#future-scope-)
 * [Learnings](#learnings-)-->
-
-## Student Developer Info: [&uarr;](#contents)
-  * Linkedin: [Priya Srivastava](https://www.linkedin.com/in/priyasrivastava730/)
-  * Github: [@Priya730](https://github.com/Priya730)
-  * Twitter: [@shivikapriya](https://twitter.com/shivikapriya)
-  * Blog: [@shivikapriya](https://medium.com/shivikapriya)
-  * Mail: [shivikapriya730@gmail.com](mailto://shivikapriya730@gmail.com)
+* [Student Developer Info](#student-developer-info-)
   
-## PROJECT DETAILS[&uarr;](#student-developer-info-)
+## PROJECT DETAILS[&uarr;](#project-details-)
 ### [Augur](https://github.com/chaoss/augur):
 Augur is a software suite for collecting and measuring structured data about free and open-source software (FOSS) communities. We do this by gathering data about project repositories and normalizing that into our data model to provide useful metrics about your project’s health. 
+[augur-new](https://github.com/chaoss/augur/tree/augur-new)
 
-### [augur_view]():
-
-### [augur-new](https://github.com/chaoss/augur/tree/augur-new):
-
-
-## WORK [&uarr;](#project-details-)
-### OBJECTIVES:
-
-#### Primary
+## OBJECTIVES [&uarr;](#project-details-)
+### Primary
 | \# | Status  | Objectives                    
 | --- | --- | ----------------------------- | 
 | 1 | :heavy_check_mark: | Develop login functionalities so that admins and users can access augur. Populate the tables with information from the user. |
@@ -57,12 +48,12 @@ Augur is a software suite for collecting and measuring structured data about fre
 | 3 | :heavy_check_mark: | Implement the endpoints necessary for account creation and authentication on the backend. |
 | 4 | :heavy_check_mark: | Work on the CLI components for creating admin and user accounts. |
 
-#### Secondary
+### Secondary
 - :heavy_check_mark: Augur enpoints to be deployed from augur-new. Install augur-new and test the schema creation with SQLAlchemy, and see if it at least creates a schema with all the data integrity protections we engineered into it.
 
-### OBJECTIVES ACCOMPLISHED:
+## OBJECTIVES ACCOMPLISHED [&uarr;](#objectives-)
 
-1. ## `augur user add` subcommand to add users:
+### `augur user add` subcommand to add users:
 <hr>
 
 ``augur user add <username> <email> <firstname> <lastname>`` <br>
@@ -78,10 +69,10 @@ The `augur user add` CLI group is for adding user to Augur's database. All comma
 <h3>Resulting Database:<h3>
 <img src="project/assets/dbresults.jpeg" width="800" height="450">
 
-3. ### Installing augur-new:
+### Installing augur-new:
 <img src="project/assets/installingAugur-new.gif" width="800" height="450">
 
-4. ## API Endpoints:
+### API Endpoints:
 ### Create User
 Command invoked like:<br>
 ``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&email=<email>&first_name=<first_name>&last_name=<last_name>``<br><hr>
@@ -100,7 +91,7 @@ Command invoked like:<br>
 ``http://127.0.0.1:5000/api/unstable/user/remove?username=<username>``<hr>
 <img src="project/assets/userremove.gif" width="800" height="450"><hr>
 
-## Deliverables
+## WORK [&uarr;](#objectives-accomplished-)
 ### What Was Done
 During these three months I have completed all the essential objectives which includes
 
@@ -120,52 +111,45 @@ During these three months I have completed all the essential objectives which in
 | 12 | User remove endpoint ORM   | [Link](https://github.com/chaoss/augur/pull/1953/commits/557d966510924215ca43ff3d03873b580bcc3cc5) | API endpoint for remove user using ORM | Completed |
 | 13 | User update endpoint ORM   | [Link](https://github.com/chaoss/augur/pull/1953/commits/2cf9afe432cc853e79f1ca68c9ba69e7d48ebbae) | API endpoint for updating user using ORM | Completed |
 | 14 | Augur user API  | [PR Link](https://github.com/chaoss/augur/pull/1953/) |  | <span style="color: purple;">Completed</span> |
+| 14 | Augur user CLI as per new schema  | [PR Link](https://github.com/chaoss/augur/pull/1953/) |  | <span style="color: purple;">Completed</span> |
 
 
 ## ACTIVITY REPORTS [&uarr;](#work-)
+- Community Bonding Phase (May 17, 2021 - June 6, 2021) - [Report](blogs/community-bonding.md)
+- Coding Period
+  - Week 1 (June 7, 2021 - June 13, 2021) - [Blog](blogs/week-01-coding-period.md)
+  - Week 2 (June 14, 2021 - June 20, 2021) - [Blog](blogs/week-02-coding-period.md)
+  - Week 3 (June 21, 2021 - June 27, 2021) - [Blog](blogs/week-03-coding-period.md)
+  - Week 4 (June 28, 2021 - July 4, 2021) - [Blog](blogs/week-04-coding-period.md)
+  - Week 5 (July 5, 2021 - July 11, 2021) - [Blog](blogs/week-05-coding-period.md)
+  - Week 6 (July 12, 2021 - July 18, 2021) - [Blog](blogs/week-06-coding-period.md)
+  - Week 7 (July 19, 2021 - July 25, 2021) - [Blog](blogs/week-07-coding-period.md)
+  - Week 8 (July 26, 2021 - August 1, 2021) - [Blog](blogs/week-08-coding-period.md)    
+  - Week 9 (August 2, 2021 - August 8, 2021) - [Blog](blogs/week-09-coding-period.md)    
+  - Week 10 (August 9, 2021 - August 15, 2021) - [Blog](blogs/week-10-coding-period.md)    
+- [Final Report](https://gist.github.com/yash2002109/887c3e68ff3ff222f941402ceb7bf0dc)
+ 
+## Mentors [&uarr;](#activity-reports-)
+- [Sean Goggins]()
+- [John Kieran]()
+- [Andrew Brain]()
 
-### Community Bonding - May 20th to June 12th, 2022 [&uarr;](#activity-reports-)
- |Week Number | Blog| Weekly Summary|
-| ---   | --- | ---| 
-**WEEK 0**|[Accepted for GSoC'22](*)| |
-**WEEK 1**|[Community Bonding week 1](https://medium.com/@shivikapriya730/google-summer-of-code-community-bonding-week-1-e2f07644dc98) | [Weekly report](weeklyReport/communityBonding/Week1.md)|
-**WEEK 2** | [Community Bonding week 2]()|  [Weekly report]()|
-**WEEK 3** | [Community Bonding week 3]() |[Weekly report]()|
-
-### Coding Period 1 - June 13th to July 11, 2022 [&uarr;](#activity-reports-)
-|Week Number | Blog| Weekly Summary|
-| ---   | --- | ---|
-**WEEK 1** |[Coding Period 1 week 1]() |[Weekly report](weeklyReport/codingPeriod/week1.md)
-**WEEK 2** |[Coding Period 1 week 2]() | [Weekly report](weeklyReport/codingPeriod/week2.md)
-**WEEK 3** |[Coding Period 1 week 3]() | [Weekly report](weeklyReport/codingPeriod/week3.md)
-**WEEK 4** |[Coding Period 1 week 4]() |[Weekly report](weeklyReport/codingPeriod/week4.md)
-**WEEK 5** |[Coding Period 1 week 5]() |[Weekly report](weeklyReport/codingPeriod/week5.md)
-**WEEK 6** |[Coding Period 1 week 6]() | [Weekly report](weeklyReport/codingPeriod/week6.md)
-**WEEK 7** |[Coding Period 1 week 7]() | [Weekly report](weeklyReport/codingPeriod/week7.md)
-**WEEK 8** |[Coding Period 1 week 8]() |[Weekly report](weeklyReport/codingPeriod/week8.md)
-
-### Coding Period 2 - July  to Aug , 2022 [&uarr;](#activity-reports-)
-|Week Number | Blog| Weekly Summary|
-| ---   | --- | ---|
-**WEEK 9** |[Coding Period 3 week 9]() |[Weekly report]()
-**WEEK 10** |[Coding Period 3 week 10]() | [Weekly report]()
-**WEEK 11** |[Coding Period 3 week 10]() | [Weekly report]()
-**WEEK 12**|[Coding Period 3 week 11]() | [Weekly report](https://github.com/Priya730/GSoC22/blob/main/weeklyReport/postMidEval/week12.md)
-
-<!--
-
-## Project Abstract
+## Acknowledgment [&uarr;](#mentors-)
+I would like to thank my mentors Sean Goggins, John Kieran & Andrew Brain for helping and guiding me throughout the GSoC Journey :)
+Thanks to other mentees and mentors for collaboration.
+I am thankful to Google Summer Of Code for providing me with an opportunity to work with CHAOSS.
 
 
-
-### Mentors
-
-## Project Updates
-
-  -->
-## Additional Info
+## Additional Info [&uarr;](#acknowledgements-)
 <b>This repository will be regularly updated with blogs and meetings summaries during the project.</b>
     
 - [GSoC'22 Project Proposal](project/Priya_Srivastava_GSoCproposal_CHAOSS.pdf)
 - [Microtasks](https://github.com/Priya730/chaoss-micro-task)
 - [Project Link](https://summerofcode.withgoogle.com/programs/2022/projects/YNXT2TFX)
+
+## Student Developer Info: [&uarr;](#additional-info-)
+  * Linkedin: [Priya Srivastava](https://www.linkedin.com/in/priyasrivastava730/)
+  * Github: [@Priya730](https://github.com/Priya730)
+  * Twitter: [@shivikapriya](https://twitter.com/shivikapriya)
+  * Blog: [@shivikapriya](https://medium.com/shivikapriya)
+  * Mail: [shivikapriya730@gmail.com](mailto://shivikapriya730@gmail.com)
