@@ -54,11 +54,10 @@ Augur is a software suite for collecting and measuring structured data about fre
 <hr>
 
 The `augur user add` CLI group is for adding user to Augur's database. All commands are invoked like:
-
   $ augur user add <command attributes>
-<br>
+<hr>
 <img src="project/assets/usercli.gif" width="800" height="450">
-<br>
+<hr>
 <h3>Resulting Database:<h3>
 <img src="project/assets/dbresults.jpeg" width="800" height="450">
 
