@@ -63,7 +63,21 @@ Augur is a software suite for collecting and measuring structured data about fre
 ### Objectives Accomplished: (Img+GIF of work product)
 1. #### Installation of augur_view:
 
-2. #### 
+2. #### `augur user add` subcommand to add users:
+
+
+User add Commands
+
+``augur user add <username> <email> <firstname> <lastname>`` <br>
+``augur user add <username> <email> <firstname> <lastname>  --admin ``
+
+The ``augur user add`` CLI group is for adding user to Augur's database. All commands are invoked like:
+
+  $ augur user add <command attributes>
+
+<br>
+<video><source src='project/assets/user-add-CLI.mp4'width="800" height="450"></video>
+
 
 ## Deliverables
 ### What Was Done
@@ -120,6 +134,8 @@ During these three months I have completed all the essential objectives which in
 <!--
 
 ## Project Abstract
+
+
 
 ### Mentors
 
