@@ -8,18 +8,13 @@
 <figure>
   <img src="project/chaoss-gsoc.png" align="center">
 </figure>
-<br>
-
 <p align="center">Check out my <a href="">blog</a> or follow me on <a href="https://twitter.com/shivikapriya">Twitter</a> for more updates.</p>
 <p align="center">
   <a href="project/Priya_Srivastava_GSoCproposal_CHAOSS.pdf"> Proposal </a>|
-  <a href="meetings/"> Meeting Notes </a>| 
-  <a href="description"> Abstract</a> |
-  <a href="blogs/">Blogs</a> |
+  <a href="project-details"> Project Details</a> |
+  <a href="activity-reports/"> Blogs</a> |
   <a href="#additional-info"> Links</a>
 </p>
-
-
 
 ## CONTENTS
 * [Project Details](#project-details-)
@@ -27,14 +22,12 @@
 * [Objectives Accomplished](#objectives-accomplished-)
 * [Work](#work-)
 * [Activity Reports](#activity-reports-)
-<!--
-* [Case study with CHAOSS](#case-study-with-chaoss-)
-* [Implementation Steps](#implementation-steps-)
-* [Future Scope](#future-scope-)
-* [Learnings](#learnings-)-->
+* [Mentors](#mentors-)
+* [Acknowledgement](#acknowledgements-)
+* [Additional Info](#additional-info-)
 * [Student Developer Info](#student-developer-info-)
   
-## PROJECT DETAILS[&uarr;](#project-details-)
+## PROJECT DETAILS[&uarr;](#contents-)
 ### [Augur](https://github.com/chaoss/augur):
 Augur is a software suite for collecting and measuring structured data about free and open-source software (FOSS) communities. We do this by gathering data about project repositories and normalizing that into our data model to provide useful metrics about your project’s health. 
 [augur-new](https://github.com/chaoss/augur/tree/augur-new)
