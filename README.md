@@ -76,7 +76,7 @@ The ``augur user add`` CLI group is for adding user to Augur's database. All com
   $ augur user add <command attributes>
 
 <br>
-<video><source src='project/assets/user-add-CLI.mp4'width="800" height="450"></video>
+<<img src="project/assets/usercli.gif" width="800" height="450">
 
 
 ## Deliverables
