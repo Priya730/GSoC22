@@ -65,22 +65,25 @@ The `augur user add` CLI group is for adding user to Augur's database. All comma
 <img src="project/assets/installingAugur-new.gif" width="800" height="450">
 
 ### API Endpoints:
-<p align="center" style="font-size:25px"> Create User <p>
+<p align="center" style="font-size:25px"> <b> Create User </b> <p>
 Command invoked like:<br>
 ``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&email=<email>&first_name=<first_name>&last_name=<last_name>``<br><hr>
 <img src="project/assets/createuser.gif" width="800" height="450"><hr>
 
-<p align="center" style="font-size:25px"> Validate User <p>
+<p align="center" style="font-size:25px"> <b> Validate User </b> <p>
 Command invoked like:<br>
+
 ``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>``<hr>
 <img src="project/assets/validateuser.gif" width="800" height="450"><hr>
 
-<p align="center" style="font-size:25px"> Update User <p>
+<p align="center" style="font-size:25px"> <b> Update User </b> <p>
 For example to update username command invoked like:<br>
+
 ``http://127.0.0.1:5000/api/unstable/user/create?username=<username>&password=<password>&new_username=<new_username>``<hr>
 
-<p align="center" style="font-size:25px"> Remove User <p>
-Command invoked like:<br>
+<p align="center" style="font-size:25px"><b> Remove User</b> <p>
+Command invoked like:
+
 ``http://127.0.0.1:5000/api/unstable/user/remove?username=<username>``<hr>
 <img src="project/assets/userremove.gif" width="800" height="450"><hr>
 
