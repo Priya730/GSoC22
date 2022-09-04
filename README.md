@@ -60,7 +60,7 @@ Augur is a software suite for collecting and measuring structured data about fre
 #### Secondary
 - :heavy_check_mark: Augur enpoints to be deployed from augur-new. Install augur-new and test the schema creation with SQLAlchemy, and see if it at least creates a schema with all the data integrity protections we engineered into it.
 
-### Objectives Accomplished:
+### Objectives Accomplished: (Img+GIF of work product)
 1. #### Installation of augur_view:
 
 2. #### 
@@ -100,20 +100,16 @@ During these three months I have completed all the essential objectives which in
 ### Coding Period 1 - June 13th to July 11, 2022 [&uarr;](#activity-reports-)
 |Week Number | Blog| Weekly Summary|
 | ---   | --- | ---|
-**WEEK 1** |[Coding Period 1 week 1]() |[Weekly report]()
-**WEEK 2** |[Coding Period 1 week 2]() | [Weekly report]()
+**WEEK 1** |[Coding Period 1 week 1]() |[Weekly report](weeklyReport/codingPeriod/week1.md)
+**WEEK 2** |[Coding Period 1 week 2]() | [Weekly report](weeklyReport/codingPeriod/week2.md)
 **WEEK 3** |[Coding Period 1 week 3]() | [Weekly report](weeklyReport/codingPeriod/week3.md)
-**WEEK 4** | [Coding Period 1 week 4]() |[Weekly report]()
+**WEEK 4** |[Coding Period 1 week 4]() |[Weekly report](weeklyReport/codingPeriod/week4.md)
+**WEEK 5** |[Coding Period 1 week 5]() |[Weekly report](weeklyReport/codingPeriod/week5.md)
+**WEEK 6** |[Coding Period 1 week 6]() | [Weekly report](weeklyReport/codingPeriod/week6.md)
+**WEEK 7** |[Coding Period 1 week 7]() | [Weekly report](weeklyReport/codingPeriod/week7.md)
+**WEEK 8** |[Coding Period 1 week 8]() |[Weekly report](weeklyReport/codingPeriod/week8.md)
 
-### Coding Period 2 - July  to July th, 2022 [&uarr;](#activity-reports-)
- |Week Number | Blog| Weekly Summary|
-| ---   | --- | ---|
-**WEEK 5** |[Coding Period 2 week 5]() |[Weekly report]()
-**WEEK 6** |[Coding Period 2 week 6]() | [Weekly report]()
-**WEEK 7** |[Coding Period 2 week 7]() | [Weekly report]()
-**WEEK 8** | [Coding Period 2 week 8]() |[Weekly report]()
-
-### Coding Period 3 - July  to Aug , 2022 [&uarr;](#activity-reports-)
+### Coding Period 2 - July  to Aug , 2022 [&uarr;](#activity-reports-)
 |Week Number | Blog| Weekly Summary|
 | ---   | --- | ---|
 **WEEK 9** |[Coding Period 3 week 9]() |[Weekly report]()
