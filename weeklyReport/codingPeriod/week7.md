@@ -12,6 +12,5 @@
 - User to repo to schema to have 4 endpoints: add, remove, update and validate (passing in hashkey (SSL))<br>
 - The updated file structure as per augur-new required me to install augur-new.
 <p align="center" style="font-size:25px"> <b> User schema </b> <p>
-<p align="center">
-    <img src="project/assets/schema.jpeg" width="400" height="350"> 
-</p>
+    
+![schema](/project/assets/schema.jpeg)
