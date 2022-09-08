@@ -80,6 +80,8 @@ def add_user(username, email, firstname, lastname, phone_number, admin, password
         user_type = "admin user" if admin else "user"
         message = f"Successfully added new {user_type}: {new_user}"
         click.secho(message, bold=True)
-        return 0```
+        return 0
+```
 
-
+## Random: 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Late night debugging sessions👩‍💻 <a href="https://t.co/aOd2S9kE9D">pic.twitter.com/aOd2S9kE9D</a></p>&mdash; Priya Srivastava (@shivikapriya) <a href="https://twitter.com/shivikapriya/status/1555283486705012737?ref_src=twsrc%5Etfw">August 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
