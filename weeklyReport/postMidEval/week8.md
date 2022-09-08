@@ -1,14 +1,14 @@
 # Week: 1 August to 7 August
 # Coding Period Week 8 Report
-[![Generic badge](https://img.shields.io/badge/Status-Ongoing-<>.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/Last_Updated_(IST)-July_31,_2022-e10b95.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Status-Done-<>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Last_Updated_(IST)-August_7,_2022-e10b95.svg)](https://shields.io/)
 
 ## TL;DR
 Create 4 api endpoints for augur-new:
-- [] create user
-- [] delete user
-- [] modify user
-- [] validate user
+-  create user
+-  delete user
+-  modify user
+-  validate user
 
 I have been using flask-sqlalchemy instead of sqlalchemy; Btw I did not know the shortcomings of using flask_sqlalchemy, good to find out and learn something new😄
 as far as I understand converting to sqlalchemy will be small changes but apart from that can we not use the User class already defined in the augur_operations?
