@@ -105,6 +105,13 @@ Worked on setting up the environment for augur-new. Gone through the Augur Datab
 
 <p align="center" style="font-size:25px"> <b> Validate User </b> <p>
 <p align="center">  Allows to validate user with given username and password</p>
+<b>Approach:</b>
+<p>- Use engine to connect to db<br>
+- Input username and password.<br>
+- Hash password, check password<br>
+- ``if not pass_hash == password:
+      
+      return jsonify({"status": "invalid password"})``
 <p align="center">
     <img src="project/assets/validateuser.gif" width="800" height="450"> 
 </p>
@@ -113,10 +120,15 @@ Worked on setting up the environment for augur-new. Gone through the Augur Datab
 <p align="center" style="font-size:25px"> <b> Remove User </b></p>
 
 <p align="center">  Allows to remove user with given username </p>
+<b>Approach:</b>
+<p>- Use engine to connect to db<br>
+- Input username and password.<br>
+- check user exists<br>
+- validate user<br>
+- if validated, session.delete(user), session.commit(), 200
 <p align="center">
     <img src="project/assets/userremove.gif" width="800" height="450"> 
 </p>
-
 <hr>
 <p align="center" style="font-size:25px"> <b> Update User </b> <p>
 
