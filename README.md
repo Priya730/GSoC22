@@ -32,7 +32,7 @@
 Augur is a software suite for collecting and measuring structured data about free and open-source software (FOSS) communities. We do this by gathering data about project repositories and normalizing that into our data model to provide useful metrics about your project’s health. 
 [augur-new](https://github.com/chaoss/augur/tree/augur-new)
 
-## OBJECTIVES [&uarr;](#project-details-)
+## OBJECTIVES [&uarr;](#details-)
 ### Primary
 | \# | Status  | Objectives                    
 | --- | --- | ----------------------------- | 
