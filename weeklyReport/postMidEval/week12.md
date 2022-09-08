@@ -13,3 +13,8 @@ Corrected the function decorator for the api endpoints.
 - The regression was introduced in https://github.com/chaoss/augur/commit/90a6c88121cde1788bf13fc627bb8e9a7f38ee80
 
 - In order to fix the decorators, I appended the call to `server.app.route` with a `@`
+- Opened PR https://github.com/chaoss/augur/pull/1968
+- This PR fixes:
+
+Imported engine and User., session fixed.
+Changed echo message
