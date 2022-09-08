@@ -26,7 +26,9 @@ psycopg2.OperationalError: SSL SYSCALL error: EOF detected
 
 ## Problems faced:
 - branch change and reorganising of file structure in augur-new got me confused. 
-<img src="project/assets/filestructure.png">
+
+![image schema](project/assets/filestructure.png)
+
 - faced problems because schema was not properly created upon installation of augur-new. solved by: `Creating a new database and calling augur db create-schema would be the easiest thing to do`
 - solved installation errors 
 - Update: 
