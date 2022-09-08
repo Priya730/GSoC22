@@ -29,8 +29,7 @@
   
 ## PROJECT DETAILS[&uarr;](#contents-)
 ### [Augur](https://github.com/chaoss/augur):
-Augur is a software suite for collecting and measuring structured data about free and open-source software (FOSS) communities. We do this by gathering data about project repositories and normalizing that into our data model to provide useful metrics about your project’s health. 
-[augur-new](https://github.com/chaoss/augur/tree/augur-new)
+Augur is a software suite for collecting and measuring structured data about free and open-source software (FOSS) communities. We do this by gathering data about project repositories and normalizing that into our data model to provide useful metrics about your project’s health. The branch I am contributing to is [augur-new](https://github.com/chaoss/augur/tree/augur-new). The project aims at creating login feature for users. This is implemented as CLI subcommands and through an API. Using these, user will be added to the database.
 
 ## OBJECTIVES [&uarr;](#details-)
 ### Primary
