@@ -70,14 +70,34 @@ Augur is a software suite for collecting and measuring structured data about fre
 
 ### 2. Installing augur-new:
 <br>
+Worked on setting up the environment for augur-new. Gone through the Augur Database Schemas
 <p align="center">
   <img src="project/assets/installingAugur-new.gif" width="800" height="450">
 </p>
 <hr>
 
 ### 3. API Endpoints:
+<b>Approach:</b>
+<p>- I was supposed to create API endpoints for integration of login with backend. The API would generate token --> hit HTTPS --> validate user (example for validate). <br>
+- This would ultimately use Postgres. So connect to Postgres instead of sqlite.<br>
+- Frontend should talk to backend API <--> database.<br>
+- User to repo to schema to have 4 endpoints: add, remove, update and validate (passing in hashkey (SSL))<br>
+- The updated file structure as per augur-new required me to install augur-new.<hr>
+<p align="center" style="font-size:25px"> <b> User schema </b><p><hr>
+<p align="center">
+    <img src="project/assets/schema.jpeg" width="400" height="350"> 
+</p>
+<hr>
+</p>
 <p align="center" style="font-size:25px"> <b> Create User </b> <p>
 <p align="center">  Allows to create user with unique username and email, password, firstname, lastname</p>
+<b>Approach:</b>
+<p>- Use engine to connect to db<br>
+- arguments required are username, password, email, firstname, lastname.<br>
+- check if the compulsory arguments are not None (error 400)<br>
+- hash password<br>
+- add user to db<br>
+- Imp point: username and email need to be unique!
 <p align="center">
     <img src="project/assets/createuser.gif" width="800" height="450"> 
 </p>
