@@ -164,7 +164,7 @@ During these three months I have completed all the essential objectives which in
 
 
 ## ACTIVITY REPORTS [&uarr;](#work-)
-- Community Bonding Phase (May 21, 2021 - June 12, 2021) - [Report](blogs/community-bonding.md)
+- Community Bonding Phase (May 21, 2021 - June 12, 2021) - [Report](weeklyReport/communityBonding/communityBondingReports.md)
 - Coding Period
   - Week 1 (June 13, 2022 - June 20, 2022) - [Blog](weeklyReport/codingPeriod/week1.md)
   - Week 2 (June 21, 2022 - June 26, 2022) - [Blog](weeklyReport/codingPeriod/week2.md)
