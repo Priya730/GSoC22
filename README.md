@@ -13,7 +13,7 @@
   <a href="project/Priya_Srivastava_GSoCproposal_CHAOSS.pdf"> Proposal </a>|
   <a href="project-details"> Project Details</a> |
   <a href="activity-reports/"> Blogs</a> |
-  <a href="#additional-info"> Links</a>
+  <a href="#additional-info-"> Links</a>
 </p>
 
 ## CONTENTS
@@ -181,10 +181,10 @@ During these three months I have completed all the essential objectives which in
   - Week 12 (August 29, 2022 - August 4, 2022) - [Blog](weeklyReport/postMidEval/week12.md)    
 - [Final Report]()
  
-## Mentors [&uarr;](#activity-reports-)
-- [Sean Goggins]()
-- [John Kieran]()
-- [Andrew Brain]()
+## Mentors and Team [&uarr;](#activity-reports-)
+- [Sean Goggins](https://github.com/sgoggins)
+- [John Kieran](https://github.com/Ulincsys)
+- [Andrew Brain](https://github.com/ABrain7710)
 
 ## Acknowledgment [&uarr;](#mentors-)
 I would like to thank my mentors Sean Goggins, John Kieran & Andrew Brain for helping and guiding me throughout the GSoC Journey :)
