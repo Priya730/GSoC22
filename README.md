@@ -11,13 +11,13 @@
 <p align="center">Check out my <a href="https://medium.com/@shivikapriya730">blog</a> or follow me on <a href="https://twitter.com/shivikapriya">Twitter</a> for more updates.</p>
 <p align="center">
   <a href="project/Priya_Srivastava_GSoCproposal_CHAOSS.pdf"> Proposal </a>|
-  <a href="project-details"> Project Details</a> |
+  <a href="#details-"> Project Details</a> |
   <a href="activity-reports/"> Blogs</a> |
   <a href="#additional-info-"> Links</a>
 </p>
 
 ## CONTENTS
-* [Project Details](#project-details-)
+* [Project Details](#details-)
 * [Objectives](#objectives-)
 * [Objectives Accomplished](#objectives-accomplished-)
 * [Work](#work-)
@@ -206,4 +206,4 @@ I am thankful to Google Summer Of Code for providing me with an opportunity to w
   * Blog: [@shivikapriya](https://medium.com/shivikapriya)
   * Mail: [shivikapriya730@gmail.com](mailto://shivikapriya730@gmail.com)
 
-### GO TO TOP [&uarr;](#project-details-)
+### GO TO TOP [&uarr;](#details-)
