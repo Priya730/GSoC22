@@ -8,7 +8,7 @@
 <figure>
   <img src="project/chaoss-gsoc.png" align="center">
 </figure>
-<p align="center">Check out my <a href="">blog</a> or follow me on <a href="https://twitter.com/shivikapriya">Twitter</a> for more updates.</p>
+<p align="center">Check out my <a href="https://medium.com/@shivikapriya730">blog</a> or follow me on <a href="https://twitter.com/shivikapriya">Twitter</a> for more updates.</p>
 <p align="center">
   <a href="project/Priya_Srivastava_GSoCproposal_CHAOSS.pdf"> Proposal </a>|
   <a href="project-details"> Project Details</a> |
