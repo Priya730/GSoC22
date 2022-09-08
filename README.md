@@ -161,7 +161,7 @@ During these three months I have completed all the essential objectives which in
 | 12 | User remove endpoint ORM   | [Link](https://github.com/chaoss/augur/pull/1953/commits/557d966510924215ca43ff3d03873b580bcc3cc5) | API endpoint for remove user using ORM | Completed |
 | 13 | User update endpoint ORM   | [Link](https://github.com/chaoss/augur/pull/1953/commits/2cf9afe432cc853e79f1ca68c9ba69e7d48ebbae) | API endpoint for updating user using ORM | Completed |
 | 14 | Augur user API  | [PR Link](https://github.com/chaoss/augur/pull/1953/) |  | <span style="color: purple;">Completed</span> |
-| 14 | Augur user CLI as per new schema  | [PR Link](https://github.com/chaoss/augur/pull/1953/) |  | <span style="color: purple;">Completed</span> |
+| 15 | Augur user CLI as per new schema  | [PR Link](https://github.com/chaoss/augur/pull/1968) |  | <span style="color: purple;">Completed</span> |
 
 
 ## ACTIVITY REPORTS [&uarr;](#work-)
