@@ -17,21 +17,21 @@
 </p>
 
 ## CONTENTS
-* [Project Details](#details-)
+* [Project Details](#project-details)
 * [Objectives](#objectives-)
 * [Objectives Accomplished](#objectives-accomplished-)
 * [Work](#work-)
 * [Activity Reports](#activity-reports-)
-* [Mentors](#mentors-)
-* [Acknowledgement](#acknowledgements-)
+* [Mentors and Team](#mentors-and-team-)
+* [Acknowledgment](#acknowledgment-)
 * [Additional Info](#additional-info-)
 * [Student Developer Info](#student-developer-info-)
   
-## PROJECT DETAILS[&uarr;](#contents-)
+## PROJECT DETAILS[&uarr;](#contents)
 ### [Augur](https://github.com/chaoss/augur):
 The aim of the project is to build login and access for users. Augur is a software suite for collecting and measuring structured data about free and open-source software (FOSS) communities. We do this by gathering data about project repositories and normalizing that into our data model to provide useful metrics about your project’s health. [augur_view](https://github.com/augurlabs/augur_view) is the hosted version of augur with HTML frontend, written with Bootstrap and served by Flask. The branch I am contributing to is [augur-new](https://github.com/chaoss/augur/tree/augur-new). The project will help the users to login using CLI and API. The project aims at creating login feature for users. This is implemented as CLI subcommands and through an API. Using these, user will be added to the database. With login functionality, the user experience will be improved. The project focused to add and improve access and authorisation functionalities for hosted version of augur (augur_view). As a future development, the new version of Augur- augur-new, will make it possible to install a single instance for CHAOSS Community members to leverage for initial experimentation with CHAOSS metrics.
 
-## OBJECTIVES [&uarr;](#details-)
+## OBJECTIVES [&uarr;](#project-details)
 ### Primary
 | \# | Status  | Objectives                    
 | --- | --- | ----------------------------- | 
@@ -185,13 +185,13 @@ During these three months I have completed all the essential objectives which in
 - [John Kieran](https://github.com/Ulincsys)
 - [Andrew Brain](https://github.com/ABrain7710)
 
-## Acknowledgment [&uarr;](#mentors-)
+## Acknowledgment [&uarr;](#mentors-and-team-)
 I would like to thank my mentors Sean Goggins, John Kieran & Andrew Brain for helping and guiding me throughout the GSoC Journey :)
 Thanks to other mentees and mentors for collaboration.
 I am thankful to Google Summer Of Code for providing me with an opportunity to work with CHAOSS.
 
 
-## Additional Info [&uarr;](#acknowledgements-)
+## Additional Info [&uarr;](#acknowledgment-)
 <b>This repository will be regularly updated with blogs and meetings summaries during the project.</b>
     
 - [GSoC'22 Project Proposal](project/Priya_Srivastava_GSoCproposal_CHAOSS.pdf)
@@ -205,4 +205,4 @@ I am thankful to Google Summer Of Code for providing me with an opportunity to w
   * Blog: [@shivikapriya](https://medium.com/shivikapriya)
   * Mail: [shivikapriya730@gmail.com](mailto://shivikapriya730@gmail.com)
 
-### GO TO TOP [&uarr;](#details-)
+### GO TO TOP [&uarr;](#project-details)
