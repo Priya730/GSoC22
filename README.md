@@ -4,7 +4,7 @@
 [![Twitter: shivikapriya](https://img.shields.io/twitter/follow/shivikapriya?style=social)](https://twitter.com/shivikapriya)
 [![GitHub: Priya730](https://img.shields.io/github/followers/Priya730?label=Follow%20%40Priya730&style=social)](https://github.com/Priya730)
 <hr>
-<h1 align="center"><a href="https://summerofcode.withgoogle.com/programs/2022/projects/YNXT2TFX" target=”_blank”>Build Access and Entitlements for Hosted version of Augur</a></h1>
+<h1 align="center"><a href="https://summerofcode.withgoogle.com/programs/2022/projects/YNXT2TFX" target="_blank">Build Access and Entitlements for Hosted version of Augur</a></h1>
 <figure>
   <img src="project/chaoss-gsoc.png" align="center">
 </figure>
